@@ -1,0 +1,12 @@
+{
+  "accounts": [
+    {
+      "id": "8c12",
+      "name": "Rakesh",
+      "email": "rakeshskr2002@gmail.com",
+      "password": "12345",
+      "confirm": "12345",
+      "role": "user"
+    }
+  ]
+}
