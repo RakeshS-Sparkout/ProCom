@@ -1,18 +1,31 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { AppComponent } from './app.component';
 import { RegisterComponent } from './account/register/register.component';
 import { LoginComponent } from './account/login/login.component';
-import { ProductComponent } from './product/product.component';
 import { UserComponent } from './user/user.component';
 import { AdminComponent } from './admin/admin.component';
+import { AuthGuard } from './guards/auth.guard';
+import { RoleGuard } from './guards/role.guard';
+import { CartComponent } from './cart/cart.component';
+import { ProductsComponent } from './products/products.component';
+import { ListsComponent } from './lists/lists.component';
 
 const routes: Routes = [
-  {path: '', redirectTo: '/login', pathMatch: 'full'},
-  {path: 'register', component: RegisterComponent},
-  {path: 'login', component: LoginComponent},
-  {path: 'user', component: UserComponent},
-  {path: 'admin', component: AdminComponent},
+  { path: 'login', component: LoginComponent, canActivate: [AuthGuard] },
+  { path: 'register', component: RegisterComponent, canActivate: [AuthGuard] },
+  { path: 'user', component: UserComponent, canActivate: [RoleGuard], data: { role: 'user' } },
+  { 
+    path: 'admin', 
+    component: AdminComponent, 
+    canActivate: [RoleGuard], 
+    data: { role: 'admin' }, 
+    children: [
+      { path: 'products', component: ProductsComponent },
+      { path: 'lists', component: ListsComponent}
+    ] 
+  },
+  { path: 'cart', component: CartComponent, canActivate: [RoleGuard], data: { role: 'user' } },
+  { path: '**', redirectTo: 'login' },
 ];
 
 @NgModule({

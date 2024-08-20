@@ -7,6 +7,474 @@
       "password": "12345",
       "confirm": "12345",
       "role": "user"
+    },
+    {
+      "id": "0d27",
+      "name": "Rakesh",
+      "email": "rakeshskr011202@gmail.com",
+      "password": "Rakesh@2002",
+      "confirm": "Rakesh@2002",
+      "role": "admin"
+    },
+    {
+      "id": "c84b",
+      "name": "Grapes",
+      "email": "john123@gmail.com",
+      "password": "John123@",
+      "confirm": "John123@",
+      "role": "admin"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/headphone/u/o/j/-original-imahfet3ydgc4dgw.jpeg?q=70",
+      "title": "Wireless Bluetooth Headphones",
+      "discount": "10% off",
+      "rating": 4.5,
+      "reviewsCount": 150,
+      "price": 99.99,
+      "quantity": 1,
+      "category":"Gadgets",
+      "features": [
+        "Bluetooth 5.0",
+        "Noise Cancelling",
+        "20 Hours Battery Life"
+      ],
+      "reviews": [
+        {
+          "userId": "8c12",
+          "username": "Rakesh",
+          "comment": "Great sound quality and comfortable to wear.",
+          "rating": 5
+        },
+        {
+          "userId": "8c13",
+          "username": "Priya",
+          "comment": "Good value for the price.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/i/p/l/-original-imah2fjcxjdjykpc.jpeg?q=70",
+      "title": "Smartphone with 128GB Storage",
+      "discount": "15% off",
+      "rating": 4.3,
+      "reviewsCount": 230,
+      "price": 299.99,
+      "quantity": 1,
+      "category":"Gadgets",
+      "features": [
+        "128GB Storage",
+        "6GB RAM",
+        "Triple Camera"
+      ],
+      "reviews": [
+        {
+          "userId": "8c14",
+          "username": "Anil",
+          "comment": "Excellent camera and performance.",
+          "rating": 5
+        },
+        {
+          "userId": "8c15",
+          "username": "Meera",
+          "comment": "Battery life could be better.",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/television/e/g/f/-original-imah2sstj2sawufx.jpeg?q=70",
+      "title": "4K Ultra HD Smart TV",
+      "discount": "20% off",
+      "rating": 4.7,
+      "reviewsCount": 90,
+      "price": 499.99,
+      "quantity": 1,
+      "category":"Home Appliances",
+      "features": [
+        "55-inch Display",
+        "Smart TV",
+        "HDR10+"
+      ],
+      "reviews": [
+        {
+          "userId": "8c16",
+          "username": "Raj",
+          "comment": "Amazing picture quality.",
+          "rating": 5
+        },
+        {
+          "userId": "8c17",
+          "username": "Sonia",
+          "comment": "User interface is a bit slow.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/computer/g/w/d/-original-imahyjzhs2eddmay.jpeg?q=70",
+      "title": "Gaming Laptop",
+      "discount": "5% off",
+      "rating": 4.8,
+      "reviewsCount": 200,
+      "price": 1199.99,
+      "quantity": 1,
+      "category":"Gadgets",
+      "features": [
+        "16GB RAM",
+        "1TB SSD",
+        "RTX 3060"
+      ],
+      "reviews": [
+        {
+          "userId": "8c18",
+          "username": "Vikram",
+          "comment": "Handles all games with ease.",
+          "rating": 5
+        },
+        {
+          "userId": "8c19",
+          "username": "Asha",
+          "comment": "Battery drains quickly during gaming.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/mouse/w/e/o/zeb-jaguar-zebronics-original-imah3t84fmrh4xwn.jpeg?q=70",
+      "title": "Wireless Mouse",
+      "discount": "25% off",
+      "rating": 4.2,
+      "reviewsCount": 85,
+      "price": 29.99,
+      "quantity": 1,
+      "category":"Gadgets",
+      "features": [
+        "Ergonomic Design",
+        "2.4GHz Wireless",
+        "Long Battery Life"
+      ],
+      "reviews": [
+        {
+          "userId": "8c20",
+          "username": "Neha",
+          "comment": "Comfortable and responsive.",
+          "rating": 4
+        },
+        {
+          "userId": "8c21",
+          "username": "Amit",
+          "comment": "Works well, but a bit bulky.",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/smartwatch/1/s/c/49-gs-t800-orange-2-android-ios-gamesir-yes-original-imah2hctetmzgg5z.jpeg?q=70",
+      "title": "Smartwatch with Heart Rate Monitor",
+      "discount": "10% off",
+      "rating": 4.4,
+      "reviewsCount": 120,
+      "price": 199.99,
+      "quantity": 1,
+      "category":"Gadgets",
+      "features": [
+        "Heart Rate Monitor",
+        "GPS",
+        "Water Resistant"
+      ],
+      "reviews": [
+        {
+          "userId": "8c22",
+          "username": "Karan",
+          "comment": "Great for tracking workouts.",
+          "rating": 5
+        },
+        {
+          "userId": "8c23",
+          "username": "Deepa",
+          "comment": "GPS sometimes loses signal.",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "image": "https://rukminim2.flixcart.com/image/612/612/kplisnk0/speaker/mobile-tablet-speaker/8/t/m/bs5pl-bl-mivi-original-imag3sgm77an79j7.jpeg?q=70",
+      "title": "Portable Bluetooth Speaker",
+      "discount": "30% off",
+      "rating": 4.6,
+      "reviewsCount": 140,
+      "price": 49.99,
+      "quantity": 1,
+      "category":"Gadgets",
+      "features": [
+        "Waterproof",
+        "12 Hours Playtime",
+        "Deep Bass"
+      ],
+      "reviews": [
+        {
+          "userId": "8c24",
+          "username": "Rahul",
+          "comment": "Sound quality is impressive.",
+          "rating": 5
+        },
+        {
+          "userId": "8c25",
+          "username": "Shalini",
+          "comment": "Volume could be louder.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "image": "https://rukminim2.flixcart.com/image/612/612/kxxl9jk0/electric-kettle/q/d/i/go-electro-1-2-stainless-steel-electric-kettle-1-piece-1-2-original-imagaa7v889bsumx.jpeg?q=70",
+      "title": "Electric Kettle",
+      "discount": "12% off",
+      "rating": 4,
+      "reviewsCount": 95,
+      "price": 39.99,
+      "quantity": 1,
+      "category":"Home Appliances",
+      "features": [
+        "Stainless Steel",
+        "1.7L Capacity",
+        "Boil Dry Protection"
+      ],
+      "reviews": [
+        {
+          "userId": "8c26",
+          "username": "Nisha",
+          "comment": "Heats water quickly.",
+          "rating": 4
+        },
+        {
+          "userId": "8c27",
+          "username": "Ravi",
+          "comment": "Design could be improved.",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/air-purifier/z/o/z/32-o20-dehumidifier-with-semi-air-purification-with-hepa-and-original-imagq68yftnazdyp.jpeg?q=70",
+      "title": "Air Purifier with HEPA Filter",
+      "discount": "18% off",
+      "rating": 4.5,
+      "reviewsCount": 75,
+      "price": 149.99,
+      "quantity": 1,
+      "category":"Home Appliances",
+      "features": [
+        "HEPA Filter",
+        "3 Stage Filtration",
+        "Quiet Operation"
+      ],
+      "reviews": [
+        {
+          "userId": "8c28",
+          "username": "Ananya",
+          "comment": "Improves air quality significantly.",
+          "rating": 5
+        },
+        {
+          "userId": "8c29",
+          "username": "Ravi",
+          "comment": "A bit noisy on higher settings.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "image": "https://rukminim2.flixcart.com/image/312/312/ktuewsw0/monitor/i/l/x/zeb-v19hd-led-hd-18-5-zeb-v19hd-led-zebronics-original-imag73hbg3zhz3zx.jpeg?q=70",
+      "title": "27-Inch 4K Monitor",
+      "discount": "12% off",
+      "rating": 4.6,
+      "reviewsCount": 95,
+      "price": 349.99,
+      "quantity": 1,
+      "category":"Gadgets",
+      "features": [
+        "4K Resolution",
+        "IPS Panel",
+        "Thin Bezels"
+      ],
+      "reviews": [
+        {
+          "userId": "8c30",
+          "username": "Mohan",
+          "comment": "Excellent display for work and play.",
+          "rating": 5
+        },
+        {
+          "userId": "8c31",
+          "username": "Aarti",
+          "comment": "Color accuracy could be better.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/washing-machine-new/m/r/e/-original-imagx7qmg7cmycjr.jpeg?q=70",
+      "title": "Front Load Washing Machine",
+      "discount": "22% off",
+      "rating": 4.4,
+      "reviewsCount": 110,
+      "price": 499.99,
+      "quantity": 1,
+      "category":"Home Appliances",
+      "features": [
+        "8kg Capacity",
+        "Inverter Motor",
+        "Multiple Wash Programs"
+      ],
+      "reviews": [
+        {
+          "userId": "8c32",
+          "username": "Sunil",
+          "comment": "Cleans clothes thoroughly.",
+          "rating": 5
+        },
+        {
+          "userId": "8c33",
+          "username": "Priya",
+          "comment": "Quite noisy during the spin cycle.",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/mixer-grinder-juicer/z/t/d/-original-imah22bpezan9zhh.jpeg?q=70",
+      "title": "3-Jar Mixer Grinder",
+      "discount": "15% off",
+      "rating": 4.3,
+      "reviewsCount": 85,
+      "price": 69.99,
+      "quantity": 1,
+      "category":"Home Appliances",
+      "features": [
+        "500W Motor",
+        "3 Jars with Lids",
+        "Stainless Steel Blades"
+      ],
+      "reviews": [
+        {
+          "userId": "8c34",
+          "username": "Amit",
+          "comment": "Powerful motor and efficient grinding.",
+          "rating": 4
+        },
+        {
+          "userId": "8c35",
+          "username": "Sonia",
+          "comment": "Jars are a bit difficult to clean.",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "image": "https://cdn.staticans.com/image/tr:e-sharpen-01,h-228,w-228,cm-pad_resize/data/philips/12apr2024/HD9867-90_2.jpg",
+      "title": "Air Fryer with Rapid Air Technology",
+      "discount": "25% off",
+      "rating": 4.7,
+      "reviewsCount": 130,
+      "price": 129.99,
+      "quantity": 1,
+      "category":"Home Appliances",
+      "features": [
+        "Rapid Air Technology",
+        "4.2L Capacity",
+        "Adjustable Temperature Control"
+      ],
+      "reviews": [
+        {
+          "userId": "8c36",
+          "username": "Ravi",
+          "comment": "Perfect for healthy frying.",
+          "rating": 5
+        },
+        {
+          "userId": "8c37",
+          "username": "Nisha",
+          "comment": "Cooking time is longer than expected.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/coffee-maker/h/t/e/croptil-electric-multi-functional-coffee-beans-seasoning-food-original-imagr3yrhhnrccdg.jpeg?q=70",
+      "title": "Espresso Coffee Maker",
+      "discount": "8% off",
+      "rating": 4.2,
+      "reviewsCount": 65,
+      "price": 89.99,
+      "quantity": 1,
+      "category":"Home Appliances",
+      "features": [
+        "15 Bar Pump Pressure",
+        "Stainless Steel Body",
+        "Built-in Milk Frother"
+      ],
+      "reviews": [
+        {
+          "userId": "8c38",
+          "username": "Vikram",
+          "comment": "Brews rich and flavorful coffee.",
+          "rating": 4
+        },
+        {
+          "userId": "8c39",
+          "username": "Deepa",
+          "comment": "Milk frother could be improved.",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/vacuum-cleaner/e/8/f/robot-vacuum-cleaner-s10-xiaomi-original-imahybufn8zfdeqj.jpeg?q=70",
+      "title": "Robot Vacuum Cleaner",
+      "discount": "22% off",
+      "rating": 4.7,
+      "reviewsCount": 150,
+      "price": 249.99,
+      "quantity": 1,
+      "category":"Home Appliances",
+      "features": [
+        "Automatic Cleaning",
+        "Smart Navigation",
+        "Rechargeable Battery"
+      ],
+      "reviews": [
+        {
+          "userId": "8c46",
+          "username": "Priya",
+          "comment": "Cleans the house efficiently and saves time.",
+          "rating": 5
+        },
+        {
+          "userId": "8c47",
+          "username": "Deepak",
+          "comment": "Battery life could be longer.",
+          "rating": 4
+        }
+      ]
     }
   ]
 }

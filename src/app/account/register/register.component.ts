@@ -62,6 +62,7 @@ export class RegisterComponent implements OnInit {
           this.http.post('http://localhost:3000/accounts', this.registerForm.value).subscribe ({
             next: (response) => {
               console.log('Account Registered:',response);
+              this.router.navigate(['/login']);
             },
             error: (err) => {
               console.log(err);
