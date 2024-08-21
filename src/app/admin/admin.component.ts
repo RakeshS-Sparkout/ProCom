@@ -16,40 +16,14 @@ export class AdminComponent implements OnInit {
 
 
   ngOnInit(): void {
-    this.productService.getProducts().subscribe(data => {
-      this.products = data;
-    });
+    // this.productService.getProducts().subscribe(data => {
+    //   this.products = data;
+    // });
+  }  
+
+  logout() {
+    localStorage.removeItem('loggedInUser');
+    this.router.navigate(['/login']);
   }
-
-  // toggleAccordion(productId: number): void {
-  //   this.products = this.products.map(product => 
-  //     product.id === productId 
-  //       ? { ...product, showReviews: !product.showReviews } 
-  //       : product
-  //   );
-  // }
-
-  // sortProducts(criteria: string) {
-  //   switch(criteria) {
-  //     case 'alphabetical':
-  //         this.products.sort((a, b) => a.title.localeCompare(b.title));
-  //         break;
-  //     case 'priceLowToHigh':
-  //         this.products.sort((a, b) => a.price - b.price);
-  //         break;
-  //     case 'priceHighToLow':
-  //         this.products.sort((a, b) => b.price - a.price);
-  //         break;
-  //     case 'highestRating':
-  //         this.products.sort((a, b) => b.rating - a.rating);
-  //         break;
-  //     default:
-  //         break;
-  //   }
-  // }
-
-  // getProducts(){
-  //   this.router.navigate(['admin/products'])
-  // }
   
 }

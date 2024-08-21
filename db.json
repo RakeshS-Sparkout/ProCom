@@ -27,7 +27,7 @@
   ],
   "products": [
     {
-      "id": 1,
+      "id": "1",
       "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/headphone/u/o/j/-original-imahfet3ydgc4dgw.jpeg?q=70",
       "title": "Wireless Bluetooth Headphones",
       "discount": "10% off",
@@ -35,7 +35,7 @@
       "reviewsCount": 150,
       "price": 99.99,
       "quantity": 1,
-      "category":"Gadgets",
+      "category": "Gadgets",
       "features": [
         "Bluetooth 5.0",
         "Noise Cancelling",
@@ -57,7 +57,7 @@
       ]
     },
     {
-      "id": 2,
+      "id": "2",
       "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/i/p/l/-original-imah2fjcxjdjykpc.jpeg?q=70",
       "title": "Smartphone with 128GB Storage",
       "discount": "15% off",
@@ -65,7 +65,7 @@
       "reviewsCount": 230,
       "price": 299.99,
       "quantity": 1,
-      "category":"Gadgets",
+      "category": "Gadgets",
       "features": [
         "128GB Storage",
         "6GB RAM",
@@ -87,7 +87,7 @@
       ]
     },
     {
-      "id": 3,
+      "id": "3",
       "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/television/e/g/f/-original-imah2sstj2sawufx.jpeg?q=70",
       "title": "4K Ultra HD Smart TV",
       "discount": "20% off",
@@ -95,7 +95,7 @@
       "reviewsCount": 90,
       "price": 499.99,
       "quantity": 1,
-      "category":"Home Appliances",
+      "category": "Home Appliances",
       "features": [
         "55-inch Display",
         "Smart TV",
@@ -117,7 +117,7 @@
       ]
     },
     {
-      "id": 4,
+      "id": "4",
       "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/computer/g/w/d/-original-imahyjzhs2eddmay.jpeg?q=70",
       "title": "Gaming Laptop",
       "discount": "5% off",
@@ -125,7 +125,7 @@
       "reviewsCount": 200,
       "price": 1199.99,
       "quantity": 1,
-      "category":"Gadgets",
+      "category": "Gadgets",
       "features": [
         "16GB RAM",
         "1TB SSD",
@@ -147,7 +147,7 @@
       ]
     },
     {
-      "id": 5,
+      "id": "5",
       "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/mouse/w/e/o/zeb-jaguar-zebronics-original-imah3t84fmrh4xwn.jpeg?q=70",
       "title": "Wireless Mouse",
       "discount": "25% off",
@@ -155,7 +155,7 @@
       "reviewsCount": 85,
       "price": 29.99,
       "quantity": 1,
-      "category":"Gadgets",
+      "category": "Gadgets",
       "features": [
         "Ergonomic Design",
         "2.4GHz Wireless",
@@ -177,7 +177,7 @@
       ]
     },
     {
-      "id": 6,
+      "id": "6",
       "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/smartwatch/1/s/c/49-gs-t800-orange-2-android-ios-gamesir-yes-original-imah2hctetmzgg5z.jpeg?q=70",
       "title": "Smartwatch with Heart Rate Monitor",
       "discount": "10% off",
@@ -185,7 +185,7 @@
       "reviewsCount": 120,
       "price": 199.99,
       "quantity": 1,
-      "category":"Gadgets",
+      "category": "Gadgets",
       "features": [
         "Heart Rate Monitor",
         "GPS",
@@ -207,7 +207,7 @@
       ]
     },
     {
-      "id": 7,
+      "id": "7",
       "image": "https://rukminim2.flixcart.com/image/612/612/kplisnk0/speaker/mobile-tablet-speaker/8/t/m/bs5pl-bl-mivi-original-imag3sgm77an79j7.jpeg?q=70",
       "title": "Portable Bluetooth Speaker",
       "discount": "30% off",
@@ -215,7 +215,7 @@
       "reviewsCount": 140,
       "price": 49.99,
       "quantity": 1,
-      "category":"Gadgets",
+      "category": "Gadgets",
       "features": [
         "Waterproof",
         "12 Hours Playtime",
@@ -237,7 +237,7 @@
       ]
     },
     {
-      "id": 8,
+      "id": "8",
       "image": "https://rukminim2.flixcart.com/image/612/612/kxxl9jk0/electric-kettle/q/d/i/go-electro-1-2-stainless-steel-electric-kettle-1-piece-1-2-original-imagaa7v889bsumx.jpeg?q=70",
       "title": "Electric Kettle",
       "discount": "12% off",
@@ -245,7 +245,7 @@
       "reviewsCount": 95,
       "price": 39.99,
       "quantity": 1,
-      "category":"Home Appliances",
+      "category": "Home Appliances",
       "features": [
         "Stainless Steel",
         "1.7L Capacity",
@@ -267,7 +267,7 @@
       ]
     },
     {
-      "id": 9,
+      "id": "9",
       "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/air-purifier/z/o/z/32-o20-dehumidifier-with-semi-air-purification-with-hepa-and-original-imagq68yftnazdyp.jpeg?q=70",
       "title": "Air Purifier with HEPA Filter",
       "discount": "18% off",
@@ -275,7 +275,7 @@
       "reviewsCount": 75,
       "price": 149.99,
       "quantity": 1,
-      "category":"Home Appliances",
+      "category": "Home Appliances",
       "features": [
         "HEPA Filter",
         "3 Stage Filtration",
@@ -297,7 +297,7 @@
       ]
     },
     {
-      "id": 10,
+      "id": "10",
       "image": "https://rukminim2.flixcart.com/image/312/312/ktuewsw0/monitor/i/l/x/zeb-v19hd-led-hd-18-5-zeb-v19hd-led-zebronics-original-imag73hbg3zhz3zx.jpeg?q=70",
       "title": "27-Inch 4K Monitor",
       "discount": "12% off",
@@ -305,7 +305,7 @@
       "reviewsCount": 95,
       "price": 349.99,
       "quantity": 1,
-      "category":"Gadgets",
+      "category": "Gadgets",
       "features": [
         "4K Resolution",
         "IPS Panel",
@@ -327,7 +327,7 @@
       ]
     },
     {
-      "id": 11,
+      "id": "11",
       "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/washing-machine-new/m/r/e/-original-imagx7qmg7cmycjr.jpeg?q=70",
       "title": "Front Load Washing Machine",
       "discount": "22% off",
@@ -335,7 +335,7 @@
       "reviewsCount": 110,
       "price": 499.99,
       "quantity": 1,
-      "category":"Home Appliances",
+      "category": "Home Appliances",
       "features": [
         "8kg Capacity",
         "Inverter Motor",
@@ -357,7 +357,7 @@
       ]
     },
     {
-      "id": 12,
+      "id": "12",
       "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/mixer-grinder-juicer/z/t/d/-original-imah22bpezan9zhh.jpeg?q=70",
       "title": "3-Jar Mixer Grinder",
       "discount": "15% off",
@@ -365,7 +365,7 @@
       "reviewsCount": 85,
       "price": 69.99,
       "quantity": 1,
-      "category":"Home Appliances",
+      "category": "Home Appliances",
       "features": [
         "500W Motor",
         "3 Jars with Lids",
@@ -387,7 +387,7 @@
       ]
     },
     {
-      "id": 13,
+      "id": "13",
       "image": "https://cdn.staticans.com/image/tr:e-sharpen-01,h-228,w-228,cm-pad_resize/data/philips/12apr2024/HD9867-90_2.jpg",
       "title": "Air Fryer with Rapid Air Technology",
       "discount": "25% off",
@@ -395,7 +395,7 @@
       "reviewsCount": 130,
       "price": 129.99,
       "quantity": 1,
-      "category":"Home Appliances",
+      "category": "Home Appliances",
       "features": [
         "Rapid Air Technology",
         "4.2L Capacity",
@@ -417,7 +417,7 @@
       ]
     },
     {
-      "id": 14,
+      "id": "14",
       "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/coffee-maker/h/t/e/croptil-electric-multi-functional-coffee-beans-seasoning-food-original-imagr3yrhhnrccdg.jpeg?q=70",
       "title": "Espresso Coffee Maker",
       "discount": "8% off",
@@ -425,7 +425,7 @@
       "reviewsCount": 65,
       "price": 89.99,
       "quantity": 1,
-      "category":"Home Appliances",
+      "category": "Home Appliances",
       "features": [
         "15 Bar Pump Pressure",
         "Stainless Steel Body",
@@ -447,7 +447,7 @@
       ]
     },
     {
-      "id": 15,
+      "id": "15",
       "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/vacuum-cleaner/e/8/f/robot-vacuum-cleaner-s10-xiaomi-original-imahybufn8zfdeqj.jpeg?q=70",
       "title": "Robot Vacuum Cleaner",
       "discount": "22% off",
@@ -455,7 +455,7 @@
       "reviewsCount": 150,
       "price": 249.99,
       "quantity": 1,
-      "category":"Home Appliances",
+      "category": "Home Appliances",
       "features": [
         "Automatic Cleaning",
         "Smart Navigation",
@@ -475,6 +475,46 @@
           "rating": 4
         }
       ]
+    },
+    {
+      "id": "0a3d",
+      "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/microwave-new/c/j/g/-original-imah2hyhs7y2achj.jpeg?q=70",
+      "title": "Microwave Oven",
+      "discount": "18% off",
+      "price": 199.99,
+      "rating": 4,
+      "category": "Home Appliances",
+      "quantity": 1
+    },
+    {
+      "id": "19fd",
+      "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/refrigerator-new/v/l/c/nr-th272cvhn-1545-3-2023-54-panasonic-681-560-original-imagnb25z9wh2ynz.jpeg?q=70",
+      "title": "Refrigerators",
+      "discount": "27% off",
+      "price": 299.99,
+      "rating": 4,
+      "category": "Home Appliances",
+      "quantity": 1
+    },
+    {
+      "id": "6daf",
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/air-cooler/i/u/d/-original-imagzttvgcc89tta.jpeg?q=70",
+      "title": "Air Cooler",
+      "discount": "22% off",
+      "price": 149.99,
+      "rating": 3,
+      "category": "Home Appliances",
+      "quantity": 1
+    },
+    {
+      "id": "1f64",
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/rocking-chair/l/r/l/14-1-seater-fir-tos-8-3-0-008-ppblue-370-blue-prime-pick-blue-5-original-imahfbkm9er4dgh2.jpeg?q=70",
+      "title": "Chair",
+      "discount": "20% off",
+      "price": 99.99,
+      "rating": 4,
+      "category": "Home Appliances",
+      "quantity": 1
     }
   ]
 }

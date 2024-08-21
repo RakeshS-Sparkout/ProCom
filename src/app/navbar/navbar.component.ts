@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { CartService } from '../add_cart/cart.service';
 
 @Component({
   selector: 'app-navbar',
@@ -8,11 +9,17 @@ import { Router } from '@angular/router';
 })
 export class NavbarComponent implements OnInit {
 
+  cartItemCount: number = 0;
+
   showcartIcon = false;
 
-  constructor(private router: Router) {}
+  constructor(private router: Router, private cartService: CartService) {}
 
   ngOnInit(): void {
+    this.cartService.cartCount$.subscribe(count => {
+      this.cartItemCount = count;
+    })
+
     this.router.events.subscribe(() => {
       const currentUrl = this.router.url;
 

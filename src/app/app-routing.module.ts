@@ -9,6 +9,7 @@ import { RoleGuard } from './guards/role.guard';
 import { CartComponent } from './cart/cart.component';
 import { ProductsComponent } from './products/products.component';
 import { ListsComponent } from './lists/lists.component';
+import { AddProductComponent } from './admin/add-product/add-product.component';
 
 const routes: Routes = [
   { path: 'login', component: LoginComponent, canActivate: [AuthGuard] },
@@ -25,7 +26,8 @@ const routes: Routes = [
     ] 
   },
   { path: 'cart', component: CartComponent, canActivate: [RoleGuard], data: { role: 'user' } },
-  { path: '**', redirectTo: 'login' },
+  { path: 'add', component: AddProductComponent },
+  { path: '**', redirectTo: 'login', pathMatch: 'full' },
 ];
 
 @NgModule({
